@@ -9,31 +9,31 @@
          <div class="icon-text  row">
             <div class="col-6 expertise-box">
                <i class="fa-solid fa-check check_icon"></i>
-               <span class="check_text">WordPress Development</span>
+               <span class="check_text">WordPress Website Development</span>
             </div>
             <div class="col-6 expertise-box">
                <i class="fa-solid fa-check check_icon"></i>
-               <span class="check_text">WordPress Development</span>
-            </div>
-         </div>
-         <div class="icon-text  row">
-            <div class="col-6 expertise-box">
-               <i class="fa-solid fa-check check_icon"></i>
-               <span class="check_text">WordPress Development</span>
-            </div>
-            <div class="col-6 expertise-box">
-               <i class="fa-solid fa-check check_icon"></i>
-               <span class="check_text">WordPress Development</span>
+               <span class="check_text">Elementor Page Builder Layouts</span>
             </div>
          </div>
          <div class="icon-text  row">
             <div class="col-6 expertise-box">
                <i class="fa-solid fa-check check_icon"></i>
-               <span class="check_text">WordPress Development</span>
+               <span class="check_text">WooCommerce & Donation Setup</span>
             </div>
             <div class="col-6 expertise-box">
                <i class="fa-solid fa-check check_icon"></i>
-               <span class="check_text">WordPress Development</span>
+               <span class="check_text">Responsive UI Development</span>
+            </div>
+         </div>
+         <div class="icon-text  row">
+            <div class="col-6 expertise-box">
+               <i class="fa-solid fa-check check_icon"></i>
+               <span class="check_text">Custom HTML, CSS & Basic PHP</span>
+            </div>
+            <div class="col-6 expertise-box">
+               <i class="fa-solid fa-check check_icon"></i>
+               <span class="check_text">Basic on-page SEO,</span>
             </div>
          </div>
       </div>

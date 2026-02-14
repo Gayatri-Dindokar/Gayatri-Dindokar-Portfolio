@@ -14,22 +14,26 @@
             if($query->have_posts()) :
             while($query->have_posts()) : $query->the_post();
             ?>
-         <div class="col-lg-4 col-md-6 mt-4">
+         <div class="col-lg-4 col-md-6 mt-4 d-flex">
             <div class="project-card p-4 d-flex flex-column h-100">
                <div class="img-box mb-3">
                   <img src="<?php echo get_field('project_image'); ?>"
                      class="img-fluid"
                      alt="">
                </div>
-               <h4 class="text-white mt-3"><?php the_title(); ?></h4>
+               <h4 class="text-white mt-3 project-title"><?php the_title(); ?></h4>
+               <?php if( have_rows('tag') ): ?>
                <div class="mb-3 py-3">
-                  <span class="badge project-badge me-2 py-2 px-3"><?php echo get_sub_field('project-tag'); ?></span>
+                  <?php while( have_rows('tag') ): the_row(); ?>
+                  <span class="badge project-badge me-2 py-2 px-3 mb-3"> <?php echo get_sub_field('project-tag'); ?></span>
+                  <?php endwhile; ?>
                </div>
+               <?php endif; ?>
                <p class="text-white">
                   <?php echo get_field('project_description'); ?>
                </p>
                <div class="project-content mt-4">
-                  <a href="<?php echo get_field('project_link'); ?>"
+                  <a href="<?php echo get_field('link'); ?>"
                      class="project-btn mt-auto"
                      target="_blank">
                   <span>View Project</span>

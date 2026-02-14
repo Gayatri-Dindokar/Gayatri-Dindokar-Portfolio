@@ -19,38 +19,33 @@
       <h3 class="skill-sub3">Tools</h3>
       <hr class="text-white my-4">
       <div class="skills-wrap">
-         <span class="skill-btn toggle-btn">ELEMENTOR</span>
-         <span class="skill-btn toggle-btn">WOOCOMMERCE</span>
-         <span class="skill-btn toggle-btn">WordPress CMS</span>
+        <span class="skill-btn toggle-btn">WordPress CMS</span>
          <span class="skill-btn toggle-btn">Visual Studio Code</span>
          <span class="skill-btn toggle-btn">XAMPP</span>
+         <span class="skill-btn toggle-btn">GitHub</span>
+
       </div>
    </div>
    <div class="skill_tools">
       <h3 class="skill-sub3">Technical Skills</h3>
       <hr class="text-white my-4">
       <div class="skills-wrap">
-         <span class="skill-btn toggle-btn">HTML</span>
-         <span class="skill-btn toggle-btn">CSS</span>
-         <span class="skill-btn toggle-btn">JAVASCRIPT</span>
          <span class="skill-btn toggle-btn">WordPress Development</span>
          <span class="skill-btn toggle-btn">Custom Theme Development</span>
          <span class="skill-btn toggle-btn">WooCommerce Setup</span>
          <span class="skill-btn toggle-btn">Elementor Page Builder</span>
-         <span class="skill-btn toggle-btn">Responsive Web Design</span>
-         <span class="skill-btn toggle-btn">Basic SEO knowledge</span>
+         
       </div>
    </div>
-   <div class="skill_tools">
+   <!-- <div class="skill_tools">
       <h3 class="skill-sub3">Platforms</h3>
       <hr class="text-white my-4">
       <div class="skills-wrap">
          <span class="skill-btn toggle-btn">Wordpress</span>
          <span class="skill-btn toggle-btn">GitHub</span>
-         <span class="skill-btn toggle-btn">WooCommerce</span>
-         <span class="skill-btn toggle-btn">Elementor</span>
+         
       </div>
-   </div>
+   </div> -->
    <div class="skill_tools">
       <h3 class="skill-sub3">Soft Skills</h3>
       <hr class="text-white my-4">

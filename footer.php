@@ -1,17 +1,16 @@
 <?php wp_footer(); ?>
-    <!-- <div class="row footer-section d-flex align-item-center">
-        <div class="col col-8">
+     <div class="row footer-section d-flex align-item-center">
+        <div class="col col-9">
           <h4 class="text-white">Crafted with ❤️ and modern web technologies</h4>
           <p class="text-white">© 2026 Gyatri Dindokar — All rights reserved</p>
         </div>
-        <div class="col col-4 footer-icons">
+        <div class="col col-3 footer-icons">
            
-                <a href="#" class="whatsapp"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="whatsapp"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="whatsapp"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="whatsapp"><i class="fa-solid fa-envelope"></i></a>
-                <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/gayatri-dindokar-24bb64259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="whatsapp"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+                <a href="https://github.com/Gayatri-Dindokar/" class="whatsapp"target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:gayatridindokar1@gmail.com" class="whatsapp" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/919370544389" class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
          </div>
-    </div> -->
+    </div> 
 </body>
 </html>

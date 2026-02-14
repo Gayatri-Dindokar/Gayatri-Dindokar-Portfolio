@@ -1,49 +1,93 @@
 <section id="contacts" class="contact-section mb-5">
-   <div class="container-fluid">
-      <div class="row">
-         <h1 class="text-white contact-sub py-3">Get in Touch</h1>
-         <p class="text-white contact-sub2">Get in touch to discuss projects, I’m currently open to new opportunities and collaborations related to WordPress development and web solutions. Whether you have a project in mind, want to discuss potential roles, or simply want to connect, I’d love to hear from you.</p>
-         <p class="text-white contact-sub2">You can reach me via email, LinkedIn, or any of the platforms listed below. I look forward to connecting!</p>
+  <div class="container-fluid">
+
+    <div class="row">
+      <h1 class="text-white contact-sub py-3">Get in Touch</h1>
+      <p class="text-white contact-sub2">
+        Get in touch to discuss projects, I’m currently open to new opportunities 
+        and collaborations related to WordPress development and web solutions.
+      </p>
+      <p class="text-white contact-sub2">
+        You can reach me via email, LinkedIn, or any of the platforms listed below.
+      </p>
+    </div>
+
+    <!-- Row 1 -->
+    <div class="row g-3 mt-5">
+
+      <!-- Email -->
+      <div class="col-4 col-md-4">
+        <a href="mailto:gayatridindokar1@gmail.com"
+           target="_blank"
+           class="contact-link text-white">
+
+          <div class="contact-card d-flex align-items-center gap-3 p-4">
+            <i class="fas fa-envelope contact-icon"></i>
+            <div>
+              <h6 class="contact-title mb-1">Email</h6>
+              <p class="mb-0">gayatridindokar1@gmail.com</p>
+            </div>
+          </div>
+
+        </a>
       </div>
-      <div class="row g-3 mt-5">
-         <div class="col col-4 col-md-4">
-            <div class="contact-card d-flex align-items-center gap-3 p-4 mb-3 ">
-               <i class="fas fa-envelope contact-icon"></i>
-               <div>
-                  <h6>Email</h6>
-                  <p>yourmail@gmail.com</p>
-               </div>
+
+      <!-- GitHub -->
+      <div class="col-4 col-md-4">
+        <a href="https://github.com/Gayatri-Dindokar/"
+           target="_blank"
+           class="contact-link text-white">
+
+          <div class="contact-card d-flex align-items-center gap-3 p-4">
+            <i class="fab fa-github contact-icon"></i>
+            <div>
+              <h6 class="contact-title">GitHub</h6>
+              <p class="mb-0">github.com/Gayatri-Dindokar</p>
             </div>
-         </div>
-         <div class="col col-4 col-md-4">
-            <div class="contact-card d-flex align-items-center gap-3 p-4">
-               <i class="fab fa-github contact-icon"></i>
-               <div>
-                  <h6>Github</h6>
-                  <p>github.com/yourprofile</p>
-               </div>
-            </div>
-         </div>
+          </div>
+
+        </a>
       </div>
-      <div class="row g-3">
-         <div class="col col-4 col-md-4">
-            <div class="contact-card d-flex align-items-center gap-3 p-4">
-               <i class="fab fa-linkedin contact-icon"></i>
-               <div>
-                  <h6>LinkedIn</h6>
-                  <p>linkedin.com/in/yourprofile</p>
-               </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row g-3 mt-3">
+
+      <!-- LinkedIn -->
+      <div class="col-4 col-md-4">
+        <a href="https://www.linkedin.com/in/gayatri-dindokar-24bb64259"
+           target="_blank"
+           class="contact-link text-white">
+
+          <div class="contact-card d-flex align-items-center gap-3 p-4">
+            <i class="fab fa-linkedin contact-icon"></i>
+            <div>
+              <h6 class="contact-title">LinkedIn</h6>
+              <p class="mb-0">linkedin/gayatri-dindokar</p>
             </div>
-         </div>
-         <div class="col col-4 col-md-4">
-            <div class="contact-card d-flex align-items-center gap-3 p-4">
-               <i class="fas fa-phone contact-icon"></i>
-               <div>
-                  <h6>Phone</h6>
-                  <p>+91 XXXXX XXXXX</p>
-               </div>
-            </div>
-         </div>
+          </div>
+
+        </a>
       </div>
-   </div>
+
+      <!-- Phone -->
+      <div class="col-4 col-md-4">
+        <a href="tel:+919370544389"
+           class="contact-link text-white">
+
+          <div class="contact-card d-flex align-items-center gap-3 p-4">
+            <i class="fas fa-phone contact-icon"></i>
+            <div>
+              <h6 class="contact-title">Phone</h6>
+              <p class="mb-0">+91 9370544389</p>
+            </div>
+          </div>
+
+        </a>
+      </div>
+
+    </div>
+
+  </div>
 </section>
