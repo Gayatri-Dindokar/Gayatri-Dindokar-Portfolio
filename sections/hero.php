@@ -1,5 +1,5 @@
 <section id="hero" class="hero-section">
-   <div class="container text-center text-white">
+   <div class="container-fluid text-center text-white">
       <h1 class="hero-title zoomin"><span class="color-gradient">Hi, I'm Gayatri Dindokar</span></h1>
       <p class="hero-sub text-white slideup">Crafting High-Performance WordPress Experiences</p>
       <p class="hero-sub2 slideup ">I design and develop efficient WordPress solutions that combine responsive layouts, optimized performance, and practical business functionality.</p>
