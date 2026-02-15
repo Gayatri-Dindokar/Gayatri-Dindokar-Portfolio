@@ -2,7 +2,37 @@
 /* =========================
    Theme Setup
 ========================= */
+
+
 require get_template_directory() . '/template-parts/class-menu-walker.php';
+function add_aos_scripts() {
+
+    // AOS CSS
+    wp_enqueue_style(
+        'aos-css',
+        'https://unpkg.com/aos@2.3.4/dist/aos.css'
+    );
+
+    // AOS JS
+    wp_enqueue_script(
+        'aos-js',
+        'https://unpkg.com/aos@2.3.4/dist/aos.js',
+        array(),
+        null,
+        true
+    );
+
+    // Tumcha main JS
+    wp_enqueue_script(
+        'main-js',
+        get_template_directory_uri() . '/js/main.js',
+        array('aos-js'),
+        null,
+        true
+    );
+}
+
+add_action('wp_enqueue_scripts', 'add_aos_scripts');
 
 
 function load_stylesheets() {
@@ -111,6 +141,7 @@ function create_projects_cpt() {
     ));
 }
 add_action('init','create_projects_cpt');
+
 
 
 

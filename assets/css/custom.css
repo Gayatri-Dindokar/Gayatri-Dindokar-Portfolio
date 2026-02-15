@@ -23,6 +23,46 @@ h5 {
 	font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+  transform: scale(0.7);
+  transition: transform 0.6s ease-out;
+}
+
+h1.show {
+  transform: scale(1);
+}
+
+
+.slideup {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.slideup.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+[data-aos] {
+  will-change: transform, opacity;
+}
+
+
+.zoomin {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: 0.7s ease-out;
+ 
+}
+
+.zoomin.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
 
 /* Header wrapper */
 .floating-header {
@@ -85,14 +125,7 @@ h5 {
 	line-height: 1.5em;
 	margin-top: 160px;
 	opacity: 0;
-   transform: scale(0.7);
-   animation: zoomIn 0.9s ease-out forwards;
-}
-@keyframes zoomIn {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+   
 }
 
 .hero-sub {
@@ -104,13 +137,13 @@ h5 {
      overflow: hidden;
 	display: inline-block;
 	white-space: nowrap;
-	animation: reveal 1.5s ease-out forwards;
+	/* animation: reveal 1.5s ease-out forwards; */
 }
 
-@keyframes reveal {
+/* @keyframes reveal {
   from { width: 0; }
   to { width: 100%; }
-}
+} */
 
 .hero-sub2 {
 	font-size: 25px;
@@ -118,17 +151,11 @@ h5 {
 	letter-spacing: 0.6px;
 	color: #98a1ab;
 	}
-.slideup{
-	opacity: 0;
-	transform: translateY(40px);
-	animation: slideUp 0.9s ease-out forwards;
-}
-@keyframes slideUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+
+
+
+
+
 
 html {
 	scroll-behavior: smooth;
@@ -317,7 +344,7 @@ section {
 .contact-section {
 	display: flex;
 	width: 100%;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .skill-section {
@@ -338,13 +365,15 @@ section {
 .skill-sub,
 .emp-sub {
 	font-size: 45px;
-	opacity: 0.8;
+	/* opacity: 0.8; */
 	letter-spacing: 1px;
 	line-height: 1.4em;
 	font-weight: 700;
 	color: white;
 
+
 }
+
 /* check */
 .about-sub2,
 .skill-sub2,
@@ -410,11 +439,11 @@ section {
 /* slideup */
 .expertise-box {
 	opacity: 0;
-	transform: translateY(40px);
-	animation: slideUp 1.2s ease forwards;
+	/* transform: translateY(40px); */
+	/* animation: slideUp 1.2s ease forwards; */
 }
 
-@keyframes slideUp {
+/* @keyframes slideUp {
 	from {
 		opacity: 0;
 		transform: translateY(40px);
@@ -424,9 +453,9 @@ section {
 		opacity: 1;
 		transform: translateY(0);
 	}
-}
+} */
 
-.zoom-in {
+/* .zoom-in {
 	opacity: 0;
 	transform: scale(.6);
 	transition: all 0.8s ease;
@@ -435,7 +464,8 @@ section {
 .zoom-in.show {
 	opacity: 1;
 	transform: scale(1);
-}
+} */
+
 
 /* skill section */
 
@@ -487,21 +517,10 @@ section {
 	background: #0b0e13;
 	border: 1px solid #2c3a48;
 	border-radius: 15px;
-	transition: all 0.4s ease;
-	animation: fadeUp 0.8s ease;
+	
 }
 
-@keyframes fadeUp {
-	from {
-		opacity: 0;
-		transform: translateY(40px);
-	}
 
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
 
 .experience-card:hover {
 	border: 1px solid #24b6a1;
@@ -535,7 +554,7 @@ section {
 	border-radius: 15px;
 	overflow: hidden;
 	border: 1px solid rgba(146, 146, 146, 0.271);
-	transition: transform 0.7s ease;
+	/* transition: transform 0.7s ease; */
 
 }
 .project-card p {

@@ -6,7 +6,7 @@
    <div class=" row">
       <!-- Experience Card 1 -->
       <div class="col-lg-12 mb-4">
-        <div class="card experience-card p-5">
+        <div class="card experience-card p-5 zoomin">
 
           <div class="row ">
             <div class="col-lg-8">
@@ -48,7 +48,7 @@
 
       <!-- Experience Card 2 -->
       <div class="col-lg-12">
-        <div class="card experience-card p-5">
+        <div class="card experience-card p-5 zoomin">
 
           <div class="row align-items-center">
             <div class="col-lg-8">

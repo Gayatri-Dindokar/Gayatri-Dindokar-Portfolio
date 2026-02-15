@@ -12,5 +12,12 @@
                 <a href="https://wa.me/919370544389" class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
          </div>
     </div> 
+    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      </script>
+</body>
+
 </body>
 </html>

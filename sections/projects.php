@@ -15,7 +15,7 @@
             while($query->have_posts()) : $query->the_post();
             ?>
          <div class="col-lg-4 col-md-6 mt-4 d-flex">
-            <div class="project-card p-4 d-flex flex-column h-100">
+            <div class="project-card slideup p-4 d-flex flex-column h-100">
                <div class="img-box mb-3">
                   <img src="<?php echo get_field('project_image'); ?>"
                      class="img-fluid"

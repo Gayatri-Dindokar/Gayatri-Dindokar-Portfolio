@@ -12,12 +12,35 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  if (window.location.hash) {
-    history.replaceState(null, null, ' ');
-  }
-  window.scrollTo(0, 0);
+// document.addEventListener("DOMContentLoaded", function () {
+//   if (window.location.hash) {
+//     history.replaceState(null, null, ' ');
+//   }
+//   window.scrollTo(0, 0);
+// });
+
+AOS.init({
+  duration: 1200,
+  easing: 'ease-in-out-sine',
+  once: true,
+  offset: 100
 });
 
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.3   // 30% element visible zala ki animation
+});
+
+document.querySelectorAll('.zoomin, .slideup')
+  .forEach(el => observer.observe(el));
+
+
+document.querySelectorAll("h1")
+  .forEach(el => observer.observe(el));
 
 
