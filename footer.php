@@ -1,8 +1,8 @@
 <?php wp_footer(); ?>
      <div class="row footer-section d-flex align-item-center">
-        <div class="col col-9">
-          <h4 class="text-white">Crafted with ❤️ and modern web technologies</h4>
-          <p class="text-white">© 2026 Gyatri Dindokar — All rights reserved</p>
+        <div class="col col-9 ">
+          <h4 class="text-white footer-sub">Crafted with ❤️ and modern web technologies</h4>
+          <p class="text-white footer-sub2">© 2026 Gyatri Dindokar — All rights reserved</p>
         </div>
         <div class="col col-3 footer-icons">
            

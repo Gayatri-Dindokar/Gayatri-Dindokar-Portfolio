@@ -1,6 +1,25 @@
-* {
-	box-sizing: border-box;
+
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
 }
+
+body{
+ overflow-x:hidden;
+}
+html,body{
+ max-width:100%;
+ overflow-x:hidden;
+}
+.row{
+ margin-left:0;
+ margin-right:0;
+}
+.project-section{
+ overflow:hidden !important;
+}
+
 
 body {
 	margin: 0;
@@ -370,8 +389,6 @@ section {
 	line-height: 1.4em;
 	font-weight: 700;
 	color: white;
-
-
 }
 
 /* check */
@@ -547,8 +564,11 @@ section {
 
 
 .project-card {
-	width: 480px;
+	/* width: 480px; */
 	/* height: auto; */
+	width: 100%;
+	max-width:480px;
+	margin:auto;
 	background: #191919;
 	padding: 20px;
 	border-radius: 15px;
@@ -776,7 +796,7 @@ section {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	
   .hero-buttons {
     flex-direction: column;
@@ -857,12 +877,11 @@ section {
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
+@media (min-width: 768px) and (max-width: 991px) {
   /* Hero section */
   .hero-section {
     min-height: 85vh;
-    padding: 60px 40px;
+    padding: 20px;
   }
 
   /* Hero title */
@@ -874,9 +893,10 @@ section {
 
   /* Subtitle */
   .hero-sub {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    white-space: normal;
+    /* white-space: normal; */
+	 white-space:normal !important;
   }
 
   .hero-sub2 {
@@ -915,7 +935,8 @@ section {
   /* Floating nav */
   .floating-header {
     width: 57%;
-    top: 20px;
+    top: 40px;
+	
   }
 
   .floating-nav {
@@ -923,7 +944,10 @@ section {
   }
 
   .floating-menu {
-    gap: 25px;
+    /* gap: 25px; */
+	flex-wrap:wrap;
+  justify-content:center;
+   gap:15px;
   }
 
   .floating-menu li a {
@@ -932,18 +956,103 @@ section {
 
   /* Container spacing */
   .container-fluid {
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
+  .about-sub,
+.emp-sub {
+	font-size: 33px;
+}
+.skill-sub{
+	font-size: 26px;
+}
+/* check */
+.about-sub2,
+.skill-sub2,
+.emp-sub2,
+.contact-sub2 {
+	font-size: 12px;
+}
+.icon-text {
+	padding-bottom: 15px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+.check_icon {
+	color: #24b6a1;
+	margin-right: 6px;
+	font-size: 14px !important;
+}
+
+.check_text {
+	font-size: 14px;
+	font-weight: 500;
+}
+.img-box img{
+ width:100%;
+ 
+ 
+}
+.project-badge{
+ white-space:normal;
+ font-size: 12px;
+}
+.project-card{
+ width:100%;
+}
+.img-box{
+ overflow:hidden;
+ height: 240px;
+}
+.project-card {
+	width: 100%;
+	max-width:480px;
+	margin:auto;
+	padding: 15px;
+	overflow: hidden;
+}
+.project-card p {
+  font-size: 12px;
+}
+.project-title{
+	line-height: 1.4em;
+}
+
+
+
+.about-section,
+.experience-section,
+.project-section,
+.skill-section,
+.contact-section {
+display: block;
+  width: 100%;
+  /* margin-top: 20px; */
+}
+section{
+ max-width:100%;
+ overflow-x:hidden;
+}
+.contact-sub {
+	font-size: 33px;
+}
+.footer-icons a{
+	border: none;
+}
+.footer-sub{
+	font-size: 22px;
+}
+.footer-sub2{
+	font-size: 14px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
 
   /* Hero section */
   .hero-section {
     min-height: 90vh;
-    padding: 0px 40px;
+    padding: 40px 0px;
   }
 
   /* Hero title */
@@ -976,25 +1085,27 @@ section {
 
   .download-btn,
   .view_work {
-    font-size: 26px;
+    font-size: 23px;
     padding: 10px 22px;
     width: auto;
   }
 
   .download-btn i,
   .view_work i {
-    font-size: 25px;
+    font-size: 21px;
   }
 
   /* Social icons */
   .social-icons {
     justify-content: center;
     margin-top: 40px;
+	font-size: 25px;
+    
   }
 
   .social-icons a {
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
   }
 
   /* Floating nav */
@@ -1019,8 +1130,55 @@ section {
 
   /* Container spacing */
   .container-fluid {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
+
+
 }
+
+@media (min-width: 1400px) {
+ /* Large screens */
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1440 → 1200 → 1024 → 900 → 768
+ */
