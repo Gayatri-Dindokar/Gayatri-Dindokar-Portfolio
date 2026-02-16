@@ -762,6 +762,17 @@ section {
 
 
 
+@media (max-width: 480px) {
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-sub {
+    font-size: 14px;
+  }
+
+}
 
 
 
@@ -822,7 +833,7 @@ section {
   }
 
   .floating-menu li a {
-    font-size: 14px;
+    font-size: 10px;
   }
   .container-fluid {
 	padding-left: 15px;
@@ -842,4 +853,174 @@ section {
 .download-btn i {
   font-size: 0.9em;
 }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Hero section */
+  .hero-section {
+    min-height: 85vh;
+    padding: 60px 40px;
+  }
+
+  /* Hero title */
+  .hero-title {
+    font-size: clamp(32px, 4vw, 46px);
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  /* Subtitle */
+  .hero-sub {
+    font-size: 18px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .hero-sub2 {
+    font-size: 14px;
+  }
+
+  /* Buttons */
+  .hero-buttons {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .download-btn,
+  .view_work {
+    font-size: 12px;
+    padding: 10px 22px;
+    width: auto;
+  }
+.download-btn i,
+  .view_work i {
+    font-size: 14px;
+    
+  }
+  /* Social icons */
+  .social-icons {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Floating nav */
+  .floating-header {
+    width: 57%;
+    top: 20px;
+  }
+
+  .floating-nav {
+    padding: 12px 20px;
+  }
+
+  .floating-menu {
+    gap: 25px;
+  }
+
+  .floating-menu li a {
+    font-size: 16px;
+  }
+
+  /* Container spacing */
+  .container-fluid {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* Hero section */
+  .hero-section {
+    min-height: 90vh;
+    padding: 0px 40px;
+  }
+
+  /* Hero title */
+  .hero-title {
+    /* font-size: clamp(32px, 4vw, 46px); */
+	font-size: 70px;
+    /* margin-top: 40px; */
+    margin-bottom: 15px;
+  }
+
+  /* Subtitle */
+  .hero-sub {
+    font-size: 30px;
+    text-align: center;
+    white-space: normal;
+	line-height: 1.5em;
+	padding: 25px 0px
+  }
+
+  .hero-sub2 {
+    font-size: 21px;
+  }
+
+  /* Buttons */
+  .hero-buttons {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .download-btn,
+  .view_work {
+    font-size: 26px;
+    padding: 10px 22px;
+    width: auto;
+  }
+
+  .download-btn i,
+  .view_work i {
+    font-size: 25px;
+  }
+
+  /* Social icons */
+  .social-icons {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .social-icons a {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* Floating nav */
+  .floating-header {
+    width: 90%;
+    top: 90px;
+  }
+
+  .floating-nav {
+    display: flex;
+    justify-content: center;
+	padding: 25px 0px;
+  }
+
+  .floating-menu {
+    gap: 50px;
+  }
+
+  .floating-menu li a {
+    font-size: 26px;
+  }
+
+  /* Container spacing */
+  .container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
 }
