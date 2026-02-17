@@ -16,7 +16,7 @@
     <div class="row g-3 mt-5">
 
       <!-- Email -->
-      <div class="col-6  col-md-6 col-lg-4 zoomin">
+      <div class="col-12  col-md-6 col-lg-4 zoomin">
         <a href="mailto:gayatridindokar1@gmail.com"
            target="_blank"
            class="contact-link text-white">
@@ -33,7 +33,7 @@
       </div>
 
       <!-- GitHub -->
-      <div class="col-6  col-md-6 col-lg-4 zoomin">
+      <div class="col-12  col-md-6 col-lg-4 zoomin">
         <a href="https://github.com/Gayatri-Dindokar/"
            target="_blank"
            class="contact-link text-white">
@@ -55,7 +55,7 @@
     <div class="row g-3 mt-3">
 
       <!-- LinkedIn -->
-      <div class="col-6  col-md-6 col-lg-4 zoomin">
+      <div class="col-12  col-md-6 col-lg-4 zoomin">
         <a href="https://www.linkedin.com/in/gayatri-dindokar-24bb64259"
            target="_blank"
            class="contact-link text-white">
@@ -72,7 +72,7 @@
       </div>
 
       <!-- Phone -->
-      <div class="col-6  col-md-6 col-lg-4 zoomin">
+      <div class="col-12  col-md-6 col-lg-4 zoomin">
         <a href="tel:+919370544389"
            class="contact-link text-white">
 

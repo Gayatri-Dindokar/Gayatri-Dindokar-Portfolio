@@ -1,10 +1,10 @@
 <?php wp_footer(); ?>
-     <div class="row footer-section d-flex align-item-center">
-        <div class="col col-9 ">
+     <div class="row footer-section d-flex align-item-center py-4">
+        <div class="col col-8 col-md-9 col-lg-9 ">
           <h4 class="text-white footer-sub">Crafted with ❤️ and modern web technologies</h4>
           <p class="text-white footer-sub2">© 2026 Gyatri Dindokar — All rights reserved</p>
         </div>
-        <div class="col col-3 footer-icons">
+        <div class="col col-4 col-md-3 col-lg-3 footer-icons">
            
                 <a href="https://www.linkedin.com/in/gayatri-dindokar-24bb64259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="whatsapp"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
                 <a href="https://github.com/Gayatri-Dindokar/" class="whatsapp"target="_blank"><i class="fa-brands fa-github"></i></a>
