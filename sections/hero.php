@@ -9,7 +9,7 @@
          <i class="fa-solid fa-arrow-right"></i>
          <span>View My Work</span></a>
 
-         <a href="http://localhost:8081/gayatri_portfolio/wp-content/uploads/2026/02/Gayatri-Dindokar-Resume-3.pdf" download class="download-btn" target="_blank"> 
+         <a href="https://gayatri-dindokar-portfolio.codewithviki.com/wp-content/uploads/2026/02/Gayatri_Dindokar.pdf" download class="download-btn" target="_blank"> 
          <i class="fa-solid fa-download"></i>
          <span>Get Resume</span></a>
       </div>
